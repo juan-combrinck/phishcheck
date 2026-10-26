@@ -1,0 +1,21 @@
+# Secrets / local config (config.example.json is the committed template)
+config.json
+*.key
+*apikey*.txt
+
+# Local cache and mail data
+cache.sqlite
+Email Check/
+
+# Downloaded test corpus (88 MB of real phishing emails; regenerate with tests/fetch_corpus.py)
+tests/corpus/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+desktop.ini
+Thumbs.db

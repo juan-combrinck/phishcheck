@@ -1,0 +1,22 @@
+From: "Microsoft Support" <help@micros0ft-secure.top>
+Reply-To: attacker@gmail.com
+Return-Path: <bounce@mailer.example.ru>
+To: victim@example.com
+Subject: URGENT: Verify your account immediately
+Date: Mon, 12 Oct 2026 10:00:00 +0000
+Authentication-Results: mx.example.com; spf=fail; dkim=none; dmarc=fail
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="B"
+
+--B
+Content-Type: text/html; charset=utf-8
+
+<html><body>Action required within 24 hours. <a href="http://192.168.4.5/login">https://www.microsoft.com/verify</a>
+<a href="http://bit.ly/abc">click here</a></body></html>
+--B
+Content-Type: application/octet-stream; name="invoice.pdf.exe"
+Content-Disposition: attachment; filename="invoice.pdf.exe"
+Content-Transfer-Encoding: base64
+
+TVqQAAMAAAAEAAAA//8AALgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+--B--
